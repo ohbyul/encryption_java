@@ -7,6 +7,7 @@ public class CryptoTest {
 	public static void main(String[] args) throws Exception {
 		String plainText = "Hello, World!";
 		String key = "secret key";
+		//시크릿 키로 암호화 복호화
 		
 		System.out.println("MD5 : " + plainText + " - " + CryptoUtil.md5(plainText));
 		System.out.println("SHA-256 : " + plainText + " - " + CryptoUtil.sha256(plainText));
