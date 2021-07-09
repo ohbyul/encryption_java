@@ -52,6 +52,7 @@ public class CryptoUtil {
 	
 	/**
 	 * 바이트 배열을 HEX 문자열로 변환한다.
+	 * ->MD5 , SHA 256 암호화시 Hex문자열 변환 사용 
 	 * @param data
 	 * @return
 	 */
